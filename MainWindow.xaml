@@ -1,0 +1,121 @@
+﻿<Window x:Class="Taskus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Taskus"
+        mc:Ignorable="d"
+       Title="Taskus" Height="450" Width="800" Background="DimGray" WindowState="Maximized" KeyDown="HotKeys">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="tblMenu">
+            <Setter Property="FontFamily" Value="fonts/#JetBrains Mono Regular"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="200"/>
+        </Style>
+        <Style TargetType="Image" x:Key="imgMenu">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="30"/>
+        </Style>
+        <Style x:Key="rbMenu" TargetType="{x:Type RadioButton}">
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RadioButton}">
+                        <Grid x:Name="templateRoot" Background="Transparent" SnapsToDevicePixels="True">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <ContentPresenter x:Name="contentPresenter" Grid.Column="1" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="Background" TargetName="templateRoot" Value="#2b2b2e"></Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="0.85*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.8*"/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.RowSpan="2" Margin="0,0,0.3, 0" VerticalAlignment="Top">
+            <StackPanel Background="#1e1e1f" >
+                <StackPanel>
+                    <Label Margin="15, 30" FontSize="32" Content="Taskus" Foreground="White" FontFamily="fonts/#JetBrains Mono Regular"></Label>
+                </StackPanel>
+                <StackPanel Margin="0, 20, 0, 0" Height="535">
+                    <RadioButton x:Name="rb1Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbPlan_Ckeched">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/user-check-solid.png"  Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="План" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="rb2Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbStops_Checked">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/paperclip-solid.png"  Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="Остановки" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="rb3Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbNotes_Checked">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/note-sticky-regular.png" Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="Заметки" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="rb4Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbLinks_Checked">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/lines-leaning-solid (1).png" Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="Ссылки" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="rb5Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbHeHeLinks_Checked">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/link-solid.png" Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="Хихи ссылки" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                    <RadioButton x:Name="rb6Menu" HorizontalAlignment="Left" Style="{StaticResource rbMenu}" Checked="rbMusic_Checked">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                            <Image Source="imgs/itunes-note.png" Style="{StaticResource imgMenu}"/>
+                            <TextBlock Text="Музыка" Style="{StaticResource tblMenu}"/>
+                        </StackPanel>
+                    </RadioButton>
+                </StackPanel>
+            </StackPanel>
+        </Viewbox>
+
+        <Viewbox Grid.Column="1">
+            <StackPanel  Background="#1e1e1f" Width="530">
+                <DockPanel>
+                    <StackPanel Orientation="Horizontal"  HorizontalAlignment="Left" Margin="10">
+                    </StackPanel>
+                    <Grid DockPanel.Dock="Right" HorizontalAlignment="Right" Margin="5">
+                        <Button Margin="80, 5, 5 ,5" Background="Transparent" VerticalAlignment="Center" Click="GoToGitHub_Click">
+                            <Image Source="imgs/github.png" Height="25"/>
+                        </Button>
+                    </Grid>
+
+                </DockPanel>
+            </StackPanel>
+        </Viewbox>
+
+        <Viewbox Grid.Row="1" Grid.Column="1">
+        <StackPanel Background="#222224" >
+                <Frame Name="frame1" NavigationUIVisibility="Hidden" Background="#222224" Height="600" Width="1068"/>
+        </StackPanel>
+        </Viewbox>
+    </Grid>
+</Window>
+

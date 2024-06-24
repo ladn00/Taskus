@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "OxZgKpwZmE8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesignextensions\\3.3.0\\materialdesignextensions.3.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes\\4.5.23158.1451\\xceed.wpf.themes.4.5.23158.1451.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes.materialdesign\\4.5.23158.1451\\xceed.wpf.themes.materialdesign.4.5.23158.1451.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes.materialdesigncolors\\4.5.23158.1451\\xceed.wpf.themes.materialdesigncolors.4.5.23158.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

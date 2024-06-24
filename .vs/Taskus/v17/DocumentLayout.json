@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\hehelinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\hehelinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\linkspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\linkspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\notespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\notespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\stopspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\stopspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\planpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\planpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\notespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\notespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\planpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\planpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\linkspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\linkspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\hehelinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\hehelinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\classes\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:classes\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\classes\\hehelinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:classes\\hehelinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\classes\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:classes\\links.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\musicpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\musicpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\taskus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:taskus.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus (net 7.0) git\\pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StopsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\StopsPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\StopsPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\StopsPage.xaml",
+              "RelativeToolTip": "Pages\\StopsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T13:46:13.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\NotesPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\NotesPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\NotesPage.xaml",
+              "RelativeToolTip": "Pages\\NotesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T13:45:57.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\NotesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\NotesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\NotesPage.xaml.cs",
+              "RelativeToolTip": "Pages\\NotesPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:40:13.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\PlanPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\PlanPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\PlanPage.xaml.cs",
+              "RelativeToolTip": "Pages\\PlanPage.xaml.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAUwO8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:24:45.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlanPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\PlanPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\PlanPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\PlanPage.xaml",
+              "RelativeToolTip": "Pages\\PlanPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T13:23:57.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LinksPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\LinksPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LinksPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\LinksPage.xaml",
+              "RelativeToolTip": "Pages\\LinksPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T18:39:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinksPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\LinksPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LinksPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\LinksPage.xaml.cs",
+              "RelativeToolTip": "Pages\\LinksPage.xaml.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:39:20.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MusicPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\MusicPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MusicPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\MusicPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MusicPage.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:53:17.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeHeLinks.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\HeHeLinks.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HeHeLinks.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\HeHeLinks.xaml.cs",
+              "RelativeToolTip": "Pages\\HeHeLinks.xaml.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:30:18.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StopsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\StopsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\StopsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\StopsPage.xaml.cs",
+              "RelativeToolTip": "Pages\\StopsPage.xaml.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAUwOgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:46:50.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Taskus.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+              "RelativeDocumentMoniker": "Taskus.csproj",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+              "RelativeToolTip": "Taskus.csproj",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T19:02:37.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HeHeLinks.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\HeHeLinks.xaml",
+              "RelativeDocumentMoniker": "Pages\\HeHeLinks.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\HeHeLinks.xaml",
+              "RelativeToolTip": "Pages\\HeHeLinks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T19:01:13.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\Home.xaml",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\Home.xaml",
+              "RelativeToolTip": "Pages\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T19:01:12.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MusicPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\MusicPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MusicPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Pages\\MusicPage.xaml",
+              "RelativeToolTip": "Pages\\MusicPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T18:55:45.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwCcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:47:16.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Links.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\Links.cs",
+              "RelativeDocumentMoniker": "classes\\Links.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\Links.cs",
+              "RelativeToolTip": "classes\\Links.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:45:28.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Music.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\Music.cs",
+              "RelativeDocumentMoniker": "classes\\Music.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\Music.cs",
+              "RelativeToolTip": "classes\\Music.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:45:15.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HeHeLinks.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\HeHeLinks.cs",
+              "RelativeDocumentMoniker": "classes\\HeHeLinks.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\classes\\HeHeLinks.cs",
+              "RelativeToolTip": "classes\\HeHeLinks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T19:42:21.755Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fonts\JetBrainsMono-Medium.ttf" />
+    <None Remove="fonts\JetBrainsMono-Regular.ttf" />
+    <None Remove="imgs\clipboard-regular.png" />
+    <None Remove="imgs\comment-dots-regular.png" />
+    <None Remove="imgs\comment-dots-solid.png" />
+    <None Remove="imgs\comments-regular.png" />
+    <None Remove="imgs\file-pdf-regular.png" />
+    <None Remove="imgs\github.png" />
+    <None Remove="imgs\habr.png" />
+    <None Remove="imgs\house-solid.png" />
+    <None Remove="imgs\itunes-note.png" />
+    <None Remove="imgs\lines-leaning-solid %281%29.png" />
+    <None Remove="imgs\link-solid.png" />
+    <None Remove="imgs\message-regular.png" />
+    <None Remove="imgs\metanit.png" />
+    <None Remove="imgs\note-sticky-regular.png" />
+    <None Remove="imgs\paperclip-solid.png" />
+    <None Remove="imgs\spotify.png" />
+    <None Remove="imgs\trash-solid.png" />
+    <None Remove="imgs\user-check-solid.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />
+    <PackageReference Include="Xceed.Wpf.Themes.MaterialDesign" Version="4.5.23158.1451" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fonts\JetBrainsMono-Medium.ttf" />
+    <Resource Include="fonts\JetBrainsMono-Regular.ttf" />
+    <Resource Include="imgs\clipboard-regular.png" />
+    <Resource Include="imgs\comment-dots-regular.png" />
+    <Resource Include="imgs\comment-dots-solid.png" />
+    <Resource Include="imgs\comments-regular.png" />
+    <Resource Include="imgs\file-pdf-regular.png" />
+    <Resource Include="imgs\github.png" />
+    <Resource Include="imgs\habr.png" />
+    <Resource Include="imgs\house-solid.png" />
+    <Resource Include="imgs\itunes-note.png" />
+    <Resource Include="imgs\lines-leaning-solid (1).png" />
+    <Resource Include="imgs\link-solid.png" />
+    <Resource Include="imgs\message-regular.png" />
+    <Resource Include="imgs\metanit.png" />
+    <Resource Include="imgs\note-sticky-regular.png" />
+    <Resource Include="imgs\paperclip-solid.png" />
+    <Resource Include="imgs\spotify.png" />
+    <Resource Include="imgs\trash-solid.png">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="imgs\user-check-solid.png" />
+  </ItemGroup>
+
+</Project>
