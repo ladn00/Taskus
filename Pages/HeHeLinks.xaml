@@ -32,9 +32,9 @@
                             <Button Height="160" BorderBrush="Transparent" Background="Transparent" Click="GoByLink_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
                                 <Image  Source="{Binding ImagePath}" Height="160"/>
                             </Button>
-                            <TextBox Height="30" Text="{Binding Name}" TextWrapping="Wrap" Margin="0, 10, 0, 5" FontSize="14" HorizontalAlignment="Center"/>
+                            <TextBox Height="30" Text="{Binding Name}" TextChanged="btName_TextChanged"  TextWrapping="Wrap" Margin="0, 10, 0, 5" FontSize="14" HorizontalAlignment="Center"/>
 
-                            <TextBox Text="{Binding Desc}" TextWrapping="Wrap"  FontSize="12" HorizontalAlignment="Center"/>
+                            <TextBox Text="{Binding Desc}" TextChanged="tbDesc_TextChanged" TextWrapping="Wrap"  FontSize="12" HorizontalAlignment="Center"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>

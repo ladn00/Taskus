@@ -209,12 +209,12 @@ namespace Taskus.Pages
                 if (selected != null)
                 {
                     int i = GetIndexOfSelected();
-                    plans[i].IsDone = editTb.IsChecked;
+                    plans[i].IsDone = editTb.IsChecked.Value;
                 }
                 else
                 {
                     CreateNewplans();
-                    selected.IsDone = editTb.IsChecked;
+                    selected.IsDone = editTb.IsChecked.Value;
                     SetDataContextAndAddItemToList(editTb);
                 }
                 selected = null;

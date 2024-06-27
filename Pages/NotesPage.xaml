@@ -45,7 +45,7 @@
                 <DataGridTemplateColumn Header="Закрепить">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <CheckBox Margin="5" IsChecked="{Binding ToPin}" BorderBrush="Cyan" Checked="rbToPin_Checked">
+                            <CheckBox Margin="5" IsChecked="{Binding ToPin}" BorderBrush="Cyan" Click="rbToPin_Checked">
                             </CheckBox>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

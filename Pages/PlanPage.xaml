@@ -45,7 +45,7 @@
                 <DataGridTemplateColumn Header="Статус">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <CheckBox Margin="5" IsChecked="{Binding IsDone}" BorderBrush="Cyan" Checked="rbStatus_Checked">
+                            <CheckBox Margin="5" IsChecked="{Binding IsDone}" BorderBrush="Cyan" Click="rbStatus_Checked">
                             </CheckBox>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

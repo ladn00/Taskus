@@ -197,12 +197,12 @@ namespace Taskus.Pages
                 if (selected != null)
                 {
                     int i = GetIndexOfSelected();
-                    notes[i].ToPin = editTb.IsChecked;
+                    notes[i].ToPin = editTb.IsChecked.Value;
                 }
                 else
                 {
                     CreateNewNotes();
-                    selected.ToPin = editTb.IsChecked;
+                    selected.ToPin = editTb.IsChecked.Value;
                     SetDataContextAndAddItemToList(editTb);
                 }
                 selected = null;

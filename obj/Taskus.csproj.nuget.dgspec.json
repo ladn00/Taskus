@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj": {}
+    "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj": {
+    "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj",
         "projectName": "Taskus",
-        "projectPath": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\Taskus v1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

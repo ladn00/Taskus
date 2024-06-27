@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OxZgKpwZmE8=",
+  "dgSpecHash": "KQAkAcUKUKU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Taskus (Net 7.0) git\\Taskus.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\materialdesignextensions\\3.3.0\\materialdesignextensions.3.3.0.nupkg.sha512",
