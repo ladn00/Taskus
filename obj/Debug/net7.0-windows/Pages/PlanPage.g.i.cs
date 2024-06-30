@@ -61,7 +61,7 @@ namespace Taskus.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Taskus;V1.0.0.0;component/pages/planpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Taskus;component/pages/planpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\PlanPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

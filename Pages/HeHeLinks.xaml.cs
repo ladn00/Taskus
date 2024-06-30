@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -26,7 +27,7 @@ namespace Taskus.Pages
     {
 
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/HeHeLinks.xml";
-        List<classes.HeHeLinks> links = new List<classes.HeHeLinks>();
+        ObservableCollection<classes.HeHeLinks> links = new ObservableCollection<classes.HeHeLinks>();
         classes.HeHeLinks selected;
 
         public HeHeLinks()
@@ -43,10 +44,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<classes.HeHeLinks> ImportFromXml()
+        ObservableCollection<classes.HeHeLinks> ImportFromXml()
         {
 
-            var list = new List<classes.HeHeLinks>();
+            var ObservableCollection = new ObservableCollection<classes.HeHeLinks>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -62,21 +63,21 @@ namespace Taskus.Pages
                     }
 
                     if (!String.IsNullOrEmpty(link.Name))
-                        list.Add(link);
+                        ObservableCollection.Add(link);
                 }
             }
 
-            return list;
+            return ObservableCollection;
         }
 
-        void ExportHeHeLinksToXml(List<classes.HeHeLinks> list)
+        void ExportHeHeLinksToXml(ObservableCollection<classes.HeHeLinks> ObservableCollection)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {
                 writer.WriteStartDocument();
                 writer.WriteStartElement("links");
 
-                foreach (var note in list)
+                foreach (var note in ObservableCollection)
                 {
                     writer.WriteStartElement("link");
                     writer.WriteElementString("name", note.Name);

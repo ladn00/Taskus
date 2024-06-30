@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace Taskus.Pages
     public partial class MusicPage : Page
     {
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/Music.xml";
-        List<Music> music = new List<Music>();
+        ObservableCollection<Music> music = new ObservableCollection<Music>();
         Music selected;
 
         public MusicPage()
@@ -43,10 +44,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<Music> ImportFromXml()
+        ObservableCollection<Music> ImportFromXml()
         {
 
-            var list = new List<Music>();
+            var ObservableCollection = new ObservableCollection<Music>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -66,21 +67,21 @@ namespace Taskus.Pages
                     }
 
                     if (!String.IsNullOrEmpty(link.Name))
-                        list.Add(link);
+                        ObservableCollection.Add(link);
                 }
             }
 
-            return list;
+            return ObservableCollection;
         }
 
-        void ExportLinksToXml(List<Music> list)
+        void ExportLinksToXml(ObservableCollection<Music> ObservableCollection)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {
                 writer.WriteStartDocument();
                 writer.WriteStartElement("musics");
 
-                foreach (var note in list)
+                foreach (var note in ObservableCollection)
                 {
                     writer.WriteStartElement("music");
                     writer.WriteElementString("name", note.Name);

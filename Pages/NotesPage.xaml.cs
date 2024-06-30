@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Numerics;
@@ -25,7 +26,7 @@ namespace Taskus.Pages
     public partial class NotesPage : Page
     {
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/Notes.xml";
-        List<Notes> notes = new List<Notes>();
+        ObservableCollection<Notes> notes = new ObservableCollection<Notes>();
         Notes selected;
 
         public NotesPage()
@@ -43,10 +44,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<Notes> ImportFromXml()
+        ObservableCollection<Notes> ImportFromXml()
         {
 
-            var list = new List<Notes>();
+            var ObservableCollection = new ObservableCollection<Notes>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -66,21 +67,21 @@ namespace Taskus.Pages
                     }
 
                     if (!String.IsNullOrEmpty(note.Name))
-                        list.Add(note);
+                        ObservableCollection.Add(note);
                 }
             }
 
-            return list;
+            return ObservableCollection;
         }
 
-        void ExportNotesToXml(List<Notes> list)
+        void ExportNotesToXml(ObservableCollection<Notes> ObservableCollection)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {
                 writer.WriteStartDocument();
                 writer.WriteStartElement("notes");
 
-                foreach (var note in list)
+                foreach (var note in ObservableCollection)
                 {
                     writer.WriteStartElement("note");
                     writer.WriteElementString("name", note.Name);

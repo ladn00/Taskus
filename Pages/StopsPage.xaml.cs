@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Numerics;
@@ -26,7 +27,7 @@ namespace Taskus.Pages
     public partial class StopsPage : Page
     {
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/Stops.xml";
-        List<Stops> stops = new List<Stops>();
+        ObservableCollection<Stops> stops = new ObservableCollection<Stops>();
         Stops selected;
 
         public StopsPage()
@@ -36,7 +37,7 @@ namespace Taskus.Pages
             try
             {
                 stops = ImportFromXml();
-                dg1.ItemsSource = stops;
+                UpdateDatagridItemsSource();
             }
             catch (Exception ex)
             {
@@ -44,10 +45,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<Stops> ImportFromXml()
+        ObservableCollection<Stops> ImportFromXml()
         {
 
-            var list = new List<Stops>();
+            var ObservableCollection = new ObservableCollection<Stops>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -67,21 +68,21 @@ namespace Taskus.Pages
                     }
 
                     if (!String.IsNullOrEmpty(stop.Name))
-                        list.Add(stop);
+                        ObservableCollection.Add(stop);
                 }
             }
 
-            return list;
+            return ObservableCollection;
         }
 
-        void ExportPlansToXml(List<Stops> list)
+        void ExportPlansToXml(ObservableCollection<Stops> ObservableCollection)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {
                 writer.WriteStartDocument();
                 writer.WriteStartElement("stops");
 
-                foreach (var stop in list)
+                foreach (var stop in ObservableCollection)
                 {
                     writer.WriteStartElement("stop");
                     writer.WriteElementString("name", stop.Name);
@@ -109,7 +110,7 @@ namespace Taskus.Pages
         int GetIndexOfSelected()
         {
             int i = 0;
-            for (i = 0; i < stops.Count; i++)
+            for (i = 0; i < stops.Count(); i++)
             {
                 if (selected == stops[i])
                     break;
@@ -123,7 +124,7 @@ namespace Taskus.Pages
             selected.Name = "-";
         }
 
-        void SetDataContextAndAddItemToList(Control editTb)
+        void SetDataContextAndAddItemToObservableCollection(Control editTb)
         {
             editTb.DataContext = selected;
             stops.Add(selected);
@@ -151,7 +152,7 @@ namespace Taskus.Pages
                 {
                     CreateNewStops();
                     selected.Name = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
+                    SetDataContextAndAddItemToObservableCollection(editTb);
                 }
 
                 OverwriteXmlFile();
@@ -179,7 +180,7 @@ namespace Taskus.Pages
                 {
                     CreateNewStops();
                     selected.Desc = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
+                    SetDataContextAndAddItemToObservableCollection(editTb);
                 }
 
                 OverwriteXmlFile();
@@ -207,7 +208,7 @@ namespace Taskus.Pages
                 {
                     CreateNewStops();
                     selected.Link = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
+                    SetDataContextAndAddItemToObservableCollection(editTb);
                 }
                 selected = null;
                 OverwriteXmlFile();

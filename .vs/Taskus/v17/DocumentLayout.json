@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\Taskus v1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\hehelinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\hehelinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\linkspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\linkspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\notespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\planpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\planpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\stopspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\notespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\classes\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:classes\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|solutionrelative:pages\\musicpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24D0B7EC-0819-4083-A935-6EB004C1963A}|Taskus.csproj|c:\\users\\user\\desktop\\taskus v1\\classes\\hehelinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\Home.xaml.cs",
+              "RelativeToolTip": "Pages\\Home.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:55:16.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "StopsPage.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\StopsPage.xaml",
               "RelativeDocumentMoniker": "Pages\\StopsPage.xaml",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "NotesPage.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\NotesPage.xaml",
               "RelativeDocumentMoniker": "Pages\\NotesPage.xaml",
@@ -117,31 +134,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NotesPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\NotesPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\NotesPage.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\NotesPage.xaml.cs",
               "RelativeToolTip": "Pages\\NotesPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:40:13.719Z"
+              "WhenOpened": "2024-06-23T13:40:13.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlanPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\PlanPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\PlanPage.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\PlanPage.xaml.cs",
               "RelativeToolTip": "Pages\\PlanPage.xaml.cs",
-              "ViewState": "AQIAANMAAAAAAAAAAAAUwO8AAAAMAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwC0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:24:45.054Z"
+              "WhenOpened": "2024-06-23T13:24:45.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PlanPage.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\PlanPage.xaml",
               "RelativeDocumentMoniker": "Pages\\PlanPage.xaml",
@@ -152,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LinksPage.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\LinksPage.xaml",
               "RelativeDocumentMoniker": "Pages\\LinksPage.xaml",
@@ -169,49 +188,53 @@
               "RelativeDocumentMoniker": "Pages\\LinksPage.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\LinksPage.xaml.cs",
               "RelativeToolTip": "Pages\\LinksPage.xaml.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T18:39:20.77Z"
+              "WhenOpened": "2024-06-22T18:39:20.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "MusicPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\MusicPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MusicPage.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\MusicPage.xaml.cs",
               "RelativeToolTip": "Pages\\MusicPage.xaml.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAACAAAAAiAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:53:17.989Z"
+              "WhenOpened": "2024-06-22T15:53:17.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HeHeLinks.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\HeHeLinks.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\HeHeLinks.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\HeHeLinks.xaml.cs",
               "RelativeToolTip": "Pages\\HeHeLinks.xaml.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:30:18.128Z"
+              "WhenOpened": "2024-06-22T19:30:18.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StopsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\StopsPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\StopsPage.xaml.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\StopsPage.xaml.cs",
               "RelativeToolTip": "Pages\\StopsPage.xaml.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAUwOgAAAAgAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T13:46:50.531Z"
+              "WhenOpened": "2024-06-23T13:46:50.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Taskus.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj",
               "RelativeDocumentMoniker": "Taskus.csproj",
@@ -223,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "HeHeLinks.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\HeHeLinks.xaml",
               "RelativeDocumentMoniker": "Pages\\HeHeLinks.xaml",
@@ -234,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Home.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\Home.xaml",
               "RelativeDocumentMoniker": "Pages\\Home.xaml",
@@ -245,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MusicPage.xaml",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\Pages\\MusicPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MusicPage.xaml",
@@ -256,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -268,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Links.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\classes\\Links.cs",
               "RelativeDocumentMoniker": "classes\\Links.cs",
@@ -280,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\classes\\Music.cs",
               "RelativeDocumentMoniker": "classes\\Music.cs",
@@ -292,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HeHeLinks.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Taskus v1\\classes\\HeHeLinks.cs",
               "RelativeDocumentMoniker": "classes\\HeHeLinks.cs",

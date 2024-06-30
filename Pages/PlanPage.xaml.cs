@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,7 @@ namespace Taskus.Pages
     public partial class PlanPage : Page
     {
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/Plan.xml";
-        List<Plan> plans = new List<Plan>();
+        ObservableCollection<Plan> plans = new ObservableCollection<Plan>();
         Plan selected;
 
         public PlanPage()
@@ -42,10 +43,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<Plan> ImportFromXml()
+        ObservableCollection<Plan> ImportFromXml()
         {
 
-            var list = new List<Plan>();
+            var list = new ObservableCollection<Plan>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -72,7 +73,7 @@ namespace Taskus.Pages
             return list;
         }
 
-        void ExportPlansToXml(List<Plan> list)
+        void ExportPlansToXml(ObservableCollection<Plan> list)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace Taskus.Pages
     public partial class LinksPage : Page
     {
         string filename = AppDomain.CurrentDomain.BaseDirectory + "../../../source/Links.xml";
-        List<Links> links = new List<Links>();
+        ObservableCollection<Links> links = new ObservableCollection<Links>();
         Links selected;
 
         public LinksPage()
@@ -42,10 +43,10 @@ namespace Taskus.Pages
             }
         }
 
-        List<Links> ImportFromXml()
+        ObservableCollection<Links> ImportFromXml()
         {
 
-            var list = new List<Links>();
+            var ObservableCollection = new ObservableCollection<Links>();
             using (XmlReader reader = XmlReader.Create(filename))
             {
                 while (reader.Read())
@@ -61,21 +62,21 @@ namespace Taskus.Pages
                     }
 
                     if (!String.IsNullOrEmpty(link.Name))
-                        list.Add(link);
+                        ObservableCollection.Add(link);
                 }
             }
 
-            return list;
+            return ObservableCollection;
         }
 
-        void ExportLinksToXml(List<Links> list)
+        void ExportLinksToXml(ObservableCollection<Links> ObservableCollection)
         {
             using (XmlWriter writer = XmlWriter.Create(filename))
             {
                 writer.WriteStartDocument();
                 writer.WriteStartElement("links");
 
-                foreach (var note in list)
+                foreach (var note in ObservableCollection)
                 {
                     writer.WriteStartElement("link");
                     writer.WriteElementString("name", note.Name);
