@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Taskus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+263baa7dfcb5c5f06c8a93d51cd6d0eeb17b4bb0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b9c133042c2793972a1b08c40aa9ad586b377c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Taskus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Taskus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
