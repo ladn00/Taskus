@@ -148,12 +148,6 @@ namespace Taskus.Pages
                     int i = GetIndexOfSelected();
                     stops[i].Name = editTb.Text;
                 }
-                else
-                {
-                    CreateNewStops();
-                    selected.Name = editTb.Text;
-                    SetDataContextAndAddItemToObservableCollection(editTb);
-                }
 
                 OverwriteXmlFile();
             }
@@ -175,12 +169,6 @@ namespace Taskus.Pages
                 {
                     int i = GetIndexOfSelected();
                     stops[i].Desc = editTb.Text;
-                }
-                else
-                {
-                    CreateNewStops();
-                    selected.Desc = editTb.Text;
-                    SetDataContextAndAddItemToObservableCollection(editTb);
                 }
 
                 OverwriteXmlFile();
@@ -204,13 +192,7 @@ namespace Taskus.Pages
                     int i = GetIndexOfSelected();
                     stops[i].Link = editTb.Text;
                 }
-                else
-                {
-                    CreateNewStops();
-                    selected.Link = editTb.Text;
-                    SetDataContextAndAddItemToObservableCollection(editTb);
-                }
-                selected = null;
+
                 OverwriteXmlFile();
             }
             catch (Exception ex)

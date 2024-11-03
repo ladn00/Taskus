@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KQAkAcUKUKU=",
+  "dgSpecHash": "qGXl9vpPui7jxQuneH94z9gR9BrVyIUfCkhsUvCLc+5tYHfVrzkEihiUn3BbR83pZADuX4bDXgcofmKNcuwB1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Taskus v1\\Taskus.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\materialdesignextensions\\3.3.0\\materialdesignextensions.3.3.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes\\4.5.23158.1451\\xceed.wpf.themes.4.5.23158.1451.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes.materialdesign\\4.5.23158.1451\\xceed.wpf.themes.materialdesign.4.5.23158.1451.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xceed.wpf.themes.materialdesigncolors\\4.5.23158.1451\\xceed.wpf.themes.materialdesigncolors.4.5.23158.1451.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Taskus\\Taskus.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

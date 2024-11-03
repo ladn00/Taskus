@@ -35,8 +35,7 @@ namespace Taskus.Pages
             try
             {
                 notes = ImportFromXml();
-                notes.GroupBy(x => x.ToPin);
-                dg1.ItemsSource = notes;
+                dg1.ItemsSource = notes.OrderByDescending(x => x.ToPin);
             }
             catch (Exception ex)
             {
@@ -129,11 +128,6 @@ namespace Taskus.Pages
             notes.Add(selected);
         }
 
-        void CheckSelectedOnNullAndSetValue(Control editTb)
-        {
-            if (selected == null)
-                selected = editTb.DataContext as Notes;
-        }
 
         private void tbName_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -147,12 +141,7 @@ namespace Taskus.Pages
                     int i = GetIndexOfSelected();
                     notes[i].Name = editTb.Text;
                 }
-                else
-                {
-                    CreateNewNotes();
-                    selected.Name = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
-                }
+
                 OverwriteXmlFile();
             }
             catch (Exception ex)
@@ -166,19 +155,14 @@ namespace Taskus.Pages
             try
             {
                 var editTb = sender as TextBox;
-
-                CheckSelectedOnNullAndSetValue(editTb);
+                selected = editTb.DataContext as Notes;
 
                 if (selected != null)
                 {
                     int i = GetIndexOfSelected();
                     notes[i].Desc = editTb.Text;
                 }
-                else {
-                    CreateNewNotes();
-                    selected.Desc = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
-                }
+
                 OverwriteXmlFile();
             }
             catch (Exception ex)
@@ -192,21 +176,14 @@ namespace Taskus.Pages
             try
             {
                 var editTb = sender as CheckBox;
-
-                CheckSelectedOnNullAndSetValue(editTb);
+                selected = editTb.DataContext as Notes;
 
                 if (selected != null)
                 {
                     int i = GetIndexOfSelected();
-                    notes[i].ToPin = editTb.IsChecked.Value;
+                    notes[i].ToPin = editTb.IsChecked;
                 }
-                else
-                {
-                    CreateNewNotes();
-                    selected.ToPin = editTb.IsChecked.Value;
-                    SetDataContextAndAddItemToList(editTb);
-                }
-                selected = null;
+
                 OverwriteXmlFile();
             }
             catch (Exception ex)
@@ -221,7 +198,6 @@ namespace Taskus.Pages
             var selected = editTb.DataContext as Notes;
             notes.Remove(selected);
             OverwriteXmlFile();
-            notes.GroupBy(x=>x.ToPin);
             UpdateDatagridItemsSource();
         }
 

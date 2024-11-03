@@ -153,14 +153,6 @@ namespace Taskus.Pages
                     }
                     plans[i].Desc = editTb.Text;
                 }
-                else
-                {
-                    selected = new Plan();
-                    selected.Desc = editTb.Text;
-                    selected.Name = "-";
-                    editTb.DataContext = selected;
-                    plans.Add(selected);
-                }
                 
                 File.WriteAllText(filename, "");
                 ExportPlansToXml(plans);
@@ -184,12 +176,6 @@ namespace Taskus.Pages
                     int i = GetIndexOfSelected();
                     plans[i].Name = editTb.Text;
                 }
-                else
-                {
-                    CreateNewplans();
-                    selected.Name = editTb.Text;
-                    SetDataContextAndAddItemToList(editTb);
-                }
 
                 OverwriteXmlFile();
             }
@@ -204,21 +190,16 @@ namespace Taskus.Pages
             try
             {
                 var editTb = sender as CheckBox;
+                selected = editTb.DataContext as Plan;
 
                 CheckSelectedOnNullAndSetValue(editTb);
 
                 if (selected != null)
                 {
                     int i = GetIndexOfSelected();
-                    plans[i].IsDone = editTb.IsChecked.Value;
+                    plans[i].IsDone = editTb.IsChecked;
                 }
-                else
-                {
-                    CreateNewplans();
-                    selected.IsDone = editTb.IsChecked.Value;
-                    SetDataContextAndAddItemToList(editTb);
-                }
-                selected = null;
+
                 OverwriteXmlFile();
             }
             catch (Exception ex)
